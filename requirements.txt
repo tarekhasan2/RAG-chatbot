@@ -1,0 +1,13 @@
+beautifulsoup4
+bs4
+langchain==0.1.14
+azure-search-documents
+azure-identity
+openai
+azure-search
+azure-core
+tiktoken
+langchain-community
+streamlit
+streamlit-chat
+langchain-openai
