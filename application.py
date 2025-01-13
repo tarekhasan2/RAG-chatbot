@@ -13,14 +13,6 @@ from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
 
 
-# AZURE_OPENAI_API_KEY            = '9wjAIxIPq1Z1twbtOdXuGYle5acPXLh7MF7PFgvptshfkx8XIoiyJQQJ99ALACYeBjFXJ3w3AAABACOGZJeO'
-# SEARCHAI_API_KEY                = '6loEzYkeb34dodw4zA1NQF1WVtCR87tHbC2D31B0xeAzSeCxs08D'
-# AZURE_SEARCH_ENDPOINT           = 'https://edw-search-poc2.search.windows.net'
-# AZURE_OPENAI_EMBEDDING_ENDPOINT = 'https://edw-openai-poc.openai.azure.com/openai/deployments/text-embedding-ada-002/embeddings?api-version=2023-05-15'
-# AZURE_OPENAI_GPT_ENDPOINT       = 'https://edw-openai-poc.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-08-01-preview'
-# AZURE_OPENAI_GPT_DEPLOYMENT     = "gpt-4o-mini"
-# AZURE_OPENAI_GPT_API_VERSION    = "2023-05-15"
-
 AZURE_OPENAI_API_KEY            = os.getenv('AZURE_OPENAI_API_KEY')
 SEARCHAI_API_KEY                = os.getenv('SEARCHAI_API_KEY')
 AZURE_SEARCH_ENDPOINT           = os.getenv('AZURE_SEARCH_ENDPOINT')
