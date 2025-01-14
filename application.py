@@ -69,7 +69,7 @@ def search_result(query):
         search_text=query,
         vector_queries= [vector_query],
         include_total_count=True,
-        top=1
+        top=10
     )
 
     sources_formatted = ""
